@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Group E project</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="all.css">
+	<style type="text/css">
+		a{
+			padding: 30px;
+			text-decoration: none;
+			color: white;
+		}	
+		body{
+			color: white;
+			background-color:#0a0a0a;
+		}	
+		.section1{
+			background-image:url('background.png');
+			background-size:cover;
+			background-repeat: no-repeat;
+			background-blend-mode: soft-light;
+			background-color: #1E1E1E;
+		}
+		.section2{
+			background-color:#1E1E1E1;
+			color:white;
+			margin-right:90px;
+			margin-left:70px
+		}
+		.section6{
+			background-color: black;
+		}
+		.section4{
+			margin-right: 50px;
+			margin-left: 50px;
+		}
+		.gallery{display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(10, 9vw);
+			grid-gap:none;
+		}
+       .gallery_img{
+         
+           object-fit: cover
+        }
+        .gallery_item--1{
+        	grid-column-start: 1;
+        	grid-column-end: 3;
+        	grid-row-start: 1;
+        	grid-row-end:3;
+        }
+        .gallery_item--2{
+        	grid-column-start: 2;
+        	grid-column-end: 9;
+        	grid-row-start: 2;
+        	grid-row-end:4;
+        }
+        .gallery_item--3{
+        	grid-column-start:1;
+        	grid-column-end: 7;
+        	grid-row-start: 6;
+        	grid-row-end:7;
+        }
+        .gallery_item--4{
+        	grid-column-start:2;
+        	grid-column-end: 6;
+        	grid-row-start: 5;
+        	grid-row-end:7;
+        }
+
+        .gallery_item--5{
+        	grid-column-start: 3;
+        	grid-column-end: 9;
+        	grid-row-start:5;
+        	grid-row-end:7;
+        }
+        .gallery_item--6{
+        	grid-column-start: 1;
+        	grid-column-end: 12;
+        	grid-row-start: 8;
+        	grid-row-end:12;
+        }
+		
+		.gallery1{display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(8, 7vw);
+			grid-gap:none;
+		}
+		.gallery_item--8{
+			grid-column-start: 1;
+			grid-column-end: 3;
+			grid-row-start: 1;
+			grid-row-end: 9;
+		}
+		.gallery_item--9{
+			grid-column-start: 5;
+			grid-column-end: 7;
+			grid-row-start: 1;
+			grid-row-end: 9;
+		}
+		.gallery_item--10{
+			grid-column-start: 6;
+			grid-column-end: 9;
+			grid-row-start: 1;
+			grid-row-end: 9;
+		}
+		
+		
+		.section3{
+			background-image: url('background2.png');
+			background-size: cover;
+            background-color:#1E1E1E;
+            background-blend-mode: soft-light;
+		}
+		header{
+			color: white;
+			font-family: ariel, serif; 
+			font-size:20px
+		}
+		.a{
+		     text-align: right;
+		}
+		.background_image--1{
+			 text-align: center;
+			 margin-top: 150px;
+		}
+		#view_all{
+             padding: 10px; 
+             color: white; 
+             background-color: red; 
+             margin-right: 60px;
+             position:relative; 
+             top:-50px
+		}
+		#section6_botton{
+           padding: 10px; 
+           color: white; 
+           background-color: red; 
+           margin-right: 110px;
+           position: relative; 
+           top:50px
+		}
+	   footer{
+	   	   text-align:center;
+	   	   margin-right: 100px
+	   }
+	   #Testimonial{
+	   	   font-style: italic; 
+	   	   font-size: 32px; 
+	   	   color:white;
+	   	   margin-left:350px;
+	   }
+	   #pic13{
+	   	   float: right; 
+	   	   margin-right: 300px;
+	   }
+	   #header4{
+           text-align: right; 
+           margin-right: 80px;
+           position: relative; 
+           top: 100px; 
+           font-family: Georgia, 'Times New Roman', Times, serif; 
+           font-style: italic; 
+           font-size: 25px; 
+           color:white
+	   }
+	   #text4{
+           margin-left: 350px;
+           margin-top:100px; 
+           position: relative; 
+           top:40px; 
+           float: left;
+	   }
+	   .ficons{
+	       float: left;
+	   }
+	   #aboutUs{
+	   	   margin-left:100px; 
+	   	   position: relative; 
+	   	   top: -270px; 
+	   	   font-family: Arial, Helvetica, sans-serif;
+	   }
+	   #aboutUsText{
+           font-size: 18px; 
+           font-family: Georgia, 'Times New Roman', Times, serif;
+	   }
+	   .iconsA{
+	   	   text-align:left; 
+	   	   position: relative; 
+	   	   top: -180px; 
+	   	   margin-left: 50px;
+	   }
+	   .foota{
+	   	  margin-top:-20px; 
+	   	  margin-left: 50px;"
+	   }
+	</style>
+</head>
+<body>
+	<section class="section1" >
+		<header ><b>Group E</b></header>
+	<div class="a" ><a href="h" style="color:red;text-decoration: underline 2px;">Home</a> <a href="#">About</a> <a href="#">portfolio</a> <a href="#">Price</a><a href="#">Contact us</a>
+	<div class="background_image--1"><img src="pic1.png" width="150px" height="150px">
+
+		<p style="font-size: 30px; color:rgb(255, 0, 0);">Group E</p><p style="color: white">The Golden Team</p><br>
+	</div>
+	<div class="iconsA"><i class="fa fa-phone"></i><br><br><i class="fa fa-phone"></i><br><br><i class="fa fa-phone"></i></div><br>
+</section>
+	<section class="section2">
+     <div class="gallery1"  style="text-align: center;">
+     	<figure class="gallery_item gallery_item--8"><img src="pic2.png" class="gallery_img" width="300px" height="400px"></figure>
+     	<figure class="gallery_item gallery_item--9"><img src="pic3.png"  class='gallery_img' width="250px" height="400px" style="top: 100px; position:relative;"></figure>
+     	<figure class="gallery_item gallery_item--10"><img src="pic4.png" class="gallery_img" width="390px" height="600px" ></figure>	
+     </div>
+     <div id="aboutUs"><caption><h1 style="font-size:40px;"><b>About Us</b></h1><p id="aboutUsText">Group  E  is  all  about  the  G  for  greatness,  <br>the  R  for  reasoning,  the  O  for  optimism, <br>the U  to  Untie  the  
+		creativity  embeded in  css, <br>P  for  progress  and  the <br>big  E  for  Excellence<br></p> <p>~~~~ Ola  quotes</p></caption></div>	
+	</section>
+<section class="section3">
+	<div style="border-top:100px">
+	<br><br><br><br>
+	<p style="color: white; font-size:30px; font-family:Georgia, 'Times New Roman', Times, serif; text-align: center;"><b>Capture the wonderful moments of your life<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="background-color: red;font-size: 15px; color: white; padding: 5px ">Capture now</a></p>
+	<br><br><br><br>
+   </div>
+</section>
+<section class="section4">
+	<header id="header4">Portfolio</header>
+	<div class="gallery">
+	<figure class="gallery_item gallery_item--1"><!--<p style="margin-left: 50px; margin-right: 50px; ">-->
+		<img src="pic6.png" class="gallery_img" alt="image6" width="340px" height="555px"></figure>
+		<figure class="gallery_item gallery_item--2"><img src="pic7.png" class="gallery_img" alt="image7" height="325px" width="705px"></figure>
+		<figure class="gallery_item gallery_item--3"><img src="pic8.png" class="gallery_img" alt="image8" width="340px" height="210px"></figure>
+		<figure class="gallery_item gallery_item--4"><img src="pic9.png" class="gallery_img" alt="image9" height="326" width="340px"></figure>
+		<figure class="gallery_item gallery_item--5"><img src="pic10.png" class="gallery_img" alt="image10" height="326" width="340px"></figure>
+		<figure class="gallery_item gallery_item--6"><img src="pic11-12.png" class="gallery_img" alt="image11" width='1065px'height="260px"></figure>
+	</div>
+	<p style="text-align: right;"> <a href="#" id="view_all">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view all&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+</section>
+<section class="section5">
+	<header id="Testimonial">Testimonials</header>
+	<p style="border-top:100px;"> <img id="pic13" src="pic13.png" width='250px' height="330px" ><p id="text4">Group e  for  eccellence<br>,  elegance,  exceptional  enhancement,  <br>esssence  of  creativity,  essence  of  beauty  <br>empowerment  to  empower others  escape from<br>mediocrity, excluding  enslavery  form  ignorance!</p>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</section>
+<section class="section6">
+	<br><br><br>
+	<div class="foota">
+	<div>
+	<p style="text-align: right;"> <a href="#" id="section6_botton">&nbsp;&nbsp;&nbsp;&nbsp;view all&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+<div style="margin-left:100px">
+	<div class='ficons'><i class="fa fa-phone"> 08066669747</i></div><div style="text-align: center;margin-right: 320px;">Available on</div><br>
+	<div class='ficons'><i class="fa fa-phone"> oladayo@npower.ng</i></div><div style="text-align: center;margin-right: 370px;"><i class="fa fa-phone"></i>    &nbsp;&nbsp;   <i class="fa fa-phone"></i>     &nbsp;&nbsp;  <i class="fa fa-phone"></i></div>
+	
+	<div style="clear: both;"></div>
+</div>
+	<p><footer>Copyright&copy; Group E</footer></p><br><br><br></p>
+</div>
+</section>
+</body>
+</html>
